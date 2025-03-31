@@ -36,8 +36,8 @@ embedded-hal = { version = "~0.2", features = ["unproven"]}
 embedded-svc = "0.27"
 futures-lite = "2"
 log = "0.4"
-#esha-test-module = { git = "https://github.com/EshaMaharishi/esha-test-module.git" }
-esha-test-module = { path = "../esha-test-module" }
+esha-test-module = { git = "https://github.com/EshaMaharishi/esha-test-module.git" }
+#esha-test-module = { path = "../esha-test-module" }
 
 [build-dependencies]
 cargo_metadata = "0.19"
